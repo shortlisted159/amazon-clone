@@ -25,8 +25,10 @@ function Payment() {
     const [processing, setProcessing] = useState("");
     const [clientSecret, setClientSecret] = useState(true);
 
+    // const [{ basket, user }, dispatch] = useStateValue();
 
-useEffect(() => {
+
+    useEffect(() => {
         // generate the special stripe secret which allows us to charge a customer
         const getClientSecret = async () => {
             const response = await axios({
@@ -67,32 +69,48 @@ useEffect(() => {
 
             setSucceeded(true);
             setError(null)
-            setProcessing(false);
+            setProcessing(false)
 
             dispatch({
                 type: 'EMPTY_BASKET'
             })
-            
-        
+
+
             // navigate.replace('/orders')
             this.props.first.navigation.reset({
-                index : 0,
+                index: 0,
                 routes: [{ name: 'orders' }]
-           })
-            
+            })
+
+
 
         })
-        
+
 
     }
-    const handleChange = event =>{
+
+    // const myFunction  = e => {
+    //     e.alert("Successful !!!");
+    // }
+    // <div>
+    //     <button onclick={myFunction}>Upload</button>
+    // </div>
+    const handleChange = event => {
         //listen for changes in the cardElement
         //and dispaly any errors as the customer types their card details
         setDisabled(event.empty);
         setError(event.error ? event.error.message : "");
     }
-    const handlePayment = event =>{
-        alert('Your order has been received, Please wait for payment confirmation');
+    const handlePayment = event => {
+        alert("Your Order has been received, Please wait for payment confirmation");
+        // navigate.replace('./confirm');
+    }
+
+    const handlebutton = e => {
+        dispatch({
+            type: 'EMPTY_BASKET'
+        })
+
     }
 
     return (
@@ -112,8 +130,8 @@ useEffect(() => {
                     </div>
                     <div className='payment__address'>
                         <p>{user?.email}</p>
-                        <p>123 React Lane</p>
-                        <p>Los Angles, CA</p>
+                        <p>86 Lake Terrace Road</p>
+                        <p>Ballygunj Kolkata</p>
                     </div>
                 </div>
 
@@ -133,7 +151,7 @@ useEffect(() => {
                                 rating={item.rating}
                             />
                         ))}
-                    </div>   
+                    </div>
                 </div>
 
                 {/* Payment section -> Payment method */}
@@ -147,23 +165,43 @@ useEffect(() => {
 
                         {/* Stripe portion */}
                         <form onSubmit={handleSubmit}>
-                            <CardElement onChange={handleChange}/>
+                            <CardElement onChange={handleChange} />
                             <div className='payment__priceContainer'>
-                            <CurrencyFormat
-                                        renderText={(value) => (
-                                            <h3>Order Total: {value}</h3>
-                                        )}
-                                        decimalScale={2}
-                                        value={getBasketTotal(basket)}
-                                        displayType={"text"}
-                                        thousandSeparator={true}
-                                        prefix={"₹"}
-                                    />
-                                    <button disabled={processing || disabled || succeeded} onClick={handlePayment}>
+                                <CurrencyFormat
+                                    renderText={(value) => (
+                                        <h3>Order Total: {value}</h3>
+                                    )}
+                                    decimalScale={2}
+                                    value={getBasketTotal(basket)}
+                                    displayType={"text"}
+                                    thousandSeparator={true}
+                                    prefix={"₹"}
+                                />
+                                {/* <button className='payment__button' onClick={e=> navigate('/confirm')}>Proceed to Buy({basket?.length} */}
+                                {/* <button disabled={processing || disabled || succeeded} onClick={handlePayment,e=> navigate('/confirm')}> */}
+
+
+                                {/* <button className='final__button' disabled={processing || disabled || succeeded} onClick={handlePayment}>
+                                    <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
+                                </button> */}
+
+                                <button className='final__button' disabled={processing || disabled || succeeded} onClick={handlebutton}>
                                     <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                                 </button>
+
+                                {/* <button className='final__button' disabled={processing || disabled} onClick={e => navigate('/confirm')}>
+                                    <span>{processing ? <p>Processing</p> : "Preceed to Confirmation Page"}</span>
+                                </button> */}
+
+                                <button className='final__button' disabled={disabled} onClick={handlePayment}>
+                                    <span>Click to Confirm</span>
+                                </button>
+
+                                <button className='final__button' disabled={disabled | succeeded} onClick={ e => navigate('/confirm')}>
+                                    <span>Proceed to Confirmation Page</span>
+                                </button>
                             </div>
-                                    
+
                             {/* Errors */}
                             {error && <div>{error}</div>}
                         </form>

@@ -78,3 +78,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## to run emulators (firebase)
 firebase emulators:start
+
+git config --global user.email "sanjuktas40@gmail.com"
+ git config --global user.name "Sanjukta"
+git init
+git add -A
+git commit -m "Here is amazon clone "
+git remote add origin git@github.com:shortlisted159/amazon-clone.git
+git push -u -f origin master
