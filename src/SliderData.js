@@ -1,0 +1,31 @@
+export const SliderData = [
+    {
+      image:
+        'https://m.media-amazon.com/images/I/61yokUZfL5L._SX3000_.jpg'
+    },
+    {
+      image:
+        'https://m.media-amazon.com/images/I/61FuWeCuGCL._SX3740_.jpg'
+    },
+    {
+      image:
+        'https://m.media-amazon.com/images/I/81lr-R0G2DL._SX3740_.jpg'
+    },
+    {
+      image:
+        'https://m.media-amazon.com/images/I/61OVMLJ2V5L._SX3000_.jpg'
+    },
+    {
+      image:
+        'https://m.media-amazon.com/images/I/61nq-helTsL._SX3740_.jpg'
+    },
+   {
+     image:
+          'https://m.media-amazon.com/images/I/61pxhbXv8tL._SX3740_.jpg'
+   },
+   {
+     image:
+          'https://m.media-amazon.com/images/I/71fUoQf9oOL._SX3740_.jpg'
+   }
+
+  ];
