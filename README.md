@@ -12,18 +12,19 @@
 
 
   
-### -----------------------------------------------------------------FOR DEVELOPER---------------------------------------------------------------------------------------------
-## firebase login should be via a cmd, the login might not work in powershell
-## after npm run build, any change in the application will have to updated using the npm run build command
-#firebase login -->firebase init--> Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys  --> use existing project --> public directory(build)--> npm run build(be in directory)
---> firebase deploy
-## repeat npm run build and firebase deploy everytime a new change is added to the project
+### --------------------------------------------FOR DEVELOPER----------------------------------------
+#### Firebase login should be via a cmd, the login might not work in powershell
 
-## to run emulators (firebase)
+#### After npm run build, any change in the application will have to updated using the npm run build command
+#### firebase login -->firebase init--> Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys  --> use existing project --> public directory(build)--> npm run build(be in directory)
+--> firebase deploy
+#### repeat npm run build and firebase deploy everytime a new change is added to the project
+
+#### to run emulators (firebase)
 firebase emulators:start
 
 git config --global user.email "sanjuktas40@gmail.com"
- git config --global user.name "Sanjukta"
+git config --global user.name "Sanjukta"
 git init
 git add -A
 git commit -m "Here is amazon clone "
