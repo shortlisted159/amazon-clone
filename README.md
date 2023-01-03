@@ -33,19 +33,19 @@ Dependencies used in the project are as follows
 
 https://clone-51f92.web.app
 
-##Home Page -
+### Home Page -
 
 ![Screenshot (56)](https://user-images.githubusercontent.com/64829176/210303543-81f8a67c-324e-4208-b062-c9db3aa2167d.png)
 
-##Check Out Page -
+### Check Out Page -
 
 ![Screenshot (58)](https://user-images.githubusercontent.com/64829176/210303621-295a933f-5bb1-47bf-ab1e-b88b38ef894e.png)
 
-##Login/Signup Page - 
+### Login/Signup Page - 
 
 ![Screenshot (57)](https://user-images.githubusercontent.com/64829176/210303654-8aaf67fc-071d-4115-99e6-4c56b6aed97a.png)
 
-##Confirmation Page - 
+### Confirmation Page - 
 
 ![Screenshot (59)](https://user-images.githubusercontent.com/64829176/210303695-7f0db39e-162a-44bf-8c6f-7b432a48898a.png)
 
