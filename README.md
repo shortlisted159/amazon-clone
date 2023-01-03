@@ -35,14 +35,19 @@ https://clone-51f92.web.app
 ![Screenshot (56)](https://user-images.githubusercontent.com/64829176/210304161-f8042878-a015-4107-9135-12d01b03192b.png)
 
 
-### Check Out Page -
+### Login/Signup Page - 
+
+![Screenshot (57)](https://user-images.githubusercontent.com/64829176/210304198-2bc126b8-3234-4675-b20b-4cf927627ded.png)
+
+
+### Cart Page -
 
 ![Screenshot (58)](https://user-images.githubusercontent.com/64829176/210304180-379afff2-becd-4dd5-aacf-2ee7f443780c.png)
 
 
-### Login/Signup Page - 
+### Checkout Page -
 
-![Screenshot (57)](https://user-images.githubusercontent.com/64829176/210304198-2bc126b8-3234-4675-b20b-4cf927627ded.png)
+![Screenshot (68)](https://user-images.githubusercontent.com/64829176/210386611-136b8814-01a8-4725-a08c-94ed63c44af3.png)
 
 
 ### Confirmation Page -
