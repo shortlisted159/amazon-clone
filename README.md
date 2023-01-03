@@ -1,5 +1,5 @@
 # Amazon Clone
-This projects mimics the e-commerce website Amazon.commerce
+This project mimics the e-commerce website Amazon.commerce
 Bundled with login and sign up functionality frontend of the 
 project includes tons of items listed in the home page that 
 can be added to cart, When navigated to the basket those items
