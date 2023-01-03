@@ -63,7 +63,7 @@ To deploy this project run
   npm run build
 ```
 Upload the build file to a hosting app.
-This App is hosted using Netlify.
+This App is hosted using Firebase.
 
 
 
