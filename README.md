@@ -1,5 +1,3 @@
-# About this project:
-
 # Amazon Clone
 This projects mimics the e-commerce website Amazon.commerce
 Bundled with login and sign up functionality frontend of the 
