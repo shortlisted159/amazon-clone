@@ -1,13 +1,13 @@
 # Amazon Clone
-This project mimics the e-commerce website Amazon.comm <br>
-Bundled with login and sign up functionality frontend of the 
+This project mimics the e-commerce website Amazon.com <br>
+Bundled with login and sign up functionality, frontend of the 
 project includes tons of items listed in the home page that 
-can be added to cart, When navigated to the basket those items
+can be added to cart.<br> When navigated to the basket those items
  will be displayed which can be removed from the basket as well.
 There is a proceed to checkout button on the basket page which 
 will redirect you to the checkout page.
-In the checkout page where stripe payment is used to process a 
-card payment, After entering the card details you will have three 
+In the checkout page stripe payment is used to process a 
+card payment. After entering the card details you will have three 
 buttons "Buy Now", "Click to Confirm", "Proceed to Confirmation Page".
 
 
