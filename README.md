@@ -16,13 +16,11 @@ buttons "Buy Now", "Click to Confirm", "Proceed to Confirmation Page".
 
 Dependencies used in the project are as follows
 
-[![dependency - Node.js](https://img.shields.io/static/v1?label=dependency&message=Node.js&color=%23A4F752)](https://nodejs.org/en/) <br><br>
-[![library - React.js](https://img.shields.io/static/v1?label=library&message=React.js&color=%2352D2F7)](https://reactjs.org/) <br><br>
-[![UI - Material UI](https://img.shields.io/static/v1?label=UI&message=Material+UI&color=%2352F7ED)](https://mui.com/) <br><br>
-[![Styling - CSS](https://img.shields.io/static/v1?label=Styling&message=CSS&color=%239D52F7)](https://www.css) <br><br>
-
-[![AGPL License](https://img.shields.io/badge/Backend-Firebase-lightgrey)](http://www.firebase.com)
-
+[![dependency - Node.js](https://img.shields.io/static/v1?label=dependency&message=Node.js&color=%23A4F752)](https://nodejs.org/en/) <br>
+[![library - React.js](https://img.shields.io/static/v1?label=library&message=React.js&color=%2352D2F7)](https://reactjs.org/) <br>
+[![UI - Material UI](https://img.shields.io/static/v1?label=UI&message=Material+UI&color=%2352F7ED)](https://mui.com/) <br>
+[![Styling - CSS](https://img.shields.io/static/v1?label=Styling&message=CSS&color=%239D52F7)](https://www.css) <br>
+[![AGPL License](https://img.shields.io/badge/Backend-Firebase-lightgrey)](http://www.firebase.com)<br>
 [![AGPL License](https://img.shields.io/badge/dependency-Javascript-orange)](http://www.javascript.com)
 
 
