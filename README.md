@@ -94,6 +94,7 @@ git config --global user.email ""
 git config --global user.name ""          
 git init         
 git add -A         
-git commit -m "Here is amazon clone "       
+git commit -m "Here is amazon clone "   
+git branch -M main
 git remote add origin Link-to-app      
 git push -u -f origin master      
