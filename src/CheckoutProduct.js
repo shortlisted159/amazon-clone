@@ -24,7 +24,7 @@ export default function CheckoutProduct({id, image, title, price, rating}) {
             <div className='checkoutProduct__rating'>
                 {Array(rating)
                    .fill()
-                // the underscore here is just a basic tool used to not care about it
+                //the underscore here is just a basic tool used to not care about it
                    .map((_, i) => (
                        <p>⭐</p>
                 ))}
