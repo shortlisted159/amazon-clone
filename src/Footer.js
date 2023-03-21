@@ -6,7 +6,6 @@ import './Footer.css'
 </style>
 
 function Footer() {
-    // const ref = useRef();
     return (
         <div className='footer'>
 
