@@ -10,7 +10,6 @@ function Footer() {
         <div className='footer'>
 
             <div className='first__footer'>
-                {/* <h3>first</h3> */}
                 <span className='first__footerSpan'>Back to top</span>
             </div>
 
