@@ -21,7 +21,7 @@ Dependencies used in the project are as follows
 [![UI - Material UI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)](https://mui.com/) <br>
 [![Styling - CSS](https://img.shields.io/static/v1?label=Styling&message=CSS&color=%239D52F7)](https://www.css) <br>
 [![AGPL License](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)](http://www.firebase.com)<br>
-[![AGPL License](https://img.shields.io/badge/dependency-Javascript-orange)](http://www.javascript.com)
+[![AGPL License](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](http://www.javascript.com)
 
 
 
