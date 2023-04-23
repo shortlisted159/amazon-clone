@@ -19,7 +19,7 @@ Dependencies used in the project are as follows
 [![dependency - Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/) <br>
 [![library - React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) <br>
 [![UI - Material UI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)](https://mui.com/) <br>
-[![Styling - CSS](https://img.shields.io/static/v1?label=Styling&message=CSS&color=%239D52F7)](https://www.css) <br>
+[![Styling - CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.css) <br>
 [![AGPL License](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)](http://www.firebase.com)<br>
 [![AGPL License](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](http://www.javascript.com)
 
