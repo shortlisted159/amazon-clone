@@ -20,7 +20,7 @@ Dependencies used in the project are as follows
 [![library - React.js](https://img.shields.io/static/v1?label=library&message=React.js&color=%2352D2F7)](https://reactjs.org/) <br>
 [![UI - Material UI](https://img.shields.io/static/v1?label=UI&message=Material+UI&color=%2352F7ED)](https://mui.com/) <br>
 [![Styling - CSS](https://img.shields.io/static/v1?label=Styling&message=CSS&color=%239D52F7)](https://www.css) <br>
-[![AGPL License](https://img.shields.io/badge/Backend-Firebase-lightgrey)](http://www.firebase.com)<br>
+[![AGPL License](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)](http://www.firebase.com)<br>
 [![AGPL License](https://img.shields.io/badge/dependency-Javascript-orange)](http://www.javascript.com)
 
 
