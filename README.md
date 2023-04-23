@@ -16,7 +16,7 @@ buttons "Buy Now", "Click to Confirm", "Proceed to Confirmation Page".
 
 Dependencies used in the project are as follows
 
-[![dependency - Node.js](https://img.shields.io/static/v1?label=dependency&message=Node.js&color=%23A4F752)](https://nodejs.org/en/) <br>
+[![dependency - Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/) <br>
 [![library - React.js](https://img.shields.io/static/v1?label=library&message=React.js&color=%2352D2F7)](https://reactjs.org/) <br>
 [![UI - Material UI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)](https://mui.com/) <br>
 [![Styling - CSS](https://img.shields.io/static/v1?label=Styling&message=CSS&color=%239D52F7)](https://www.css) <br>
